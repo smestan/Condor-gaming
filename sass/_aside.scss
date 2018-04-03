@@ -1,0 +1,59 @@
+/* Aside */
+
+.aside-section {
+    padding: 0;
+    margin: 0;
+}
+
+aside {
+    background-color: #1e3a3a;
+    border: 10px solid $aside-border;
+    color: #fff;
+    height: auto;
+    padding: 15px 10px;
+}
+
+.stories {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.article-share {
+    margin-bottom: 30px;
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        &:after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+        li {
+            float: left;
+            margin-right: 13px;
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+.categories {
+    text-decoration: underline;
+    a {
+        font-family: Verdana, sans-serif;
+        font-size: 16px;
+        color: #fff;
+    }
+}
+
+.redesign {
+    margin-bottom: 20px;
+}
+
+.carousel-slider div a img {
+    margin: 0 auto;
+}

@@ -1,0 +1,48 @@
+
+/* Global */
+
+
+@font-face {
+    font-family: showcardgothic;
+    src: url(../font/ShowcardGothic.ttf);
+}
+
+
+
+
+html,
+body {
+    font-size: 12px;
+}
+
+.content-wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin: 10px 64px;
+}
+
+.min-height {
+    min-height: $min-height;
+}
+
+.fixed-logo {
+    position: fixed;
+    top: 85px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    h1 {
+        display: inline-block;
+        font-family: $logoFont;
+        font-size: 29.33px;
+        color: #fff;
+        background-color: $bg-color;
+        margin: 0;
+    }
+}
+

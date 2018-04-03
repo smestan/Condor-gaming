@@ -1,0 +1,53 @@
+@import 'variables',
+'global',
+'header',
+'main-section',
+'aside',
+'footer';
+@media screen and ($width-name: $target-width) {
+    .fixed-logo {
+        display: none;
+    }
+    .content-wrapper {
+        width: 100%;
+    }
+    .wrapper {
+        margin: 0 auto;
+    }
+    p {
+        text-align: justify;
+    }
+    #main-menu {
+        width: 100%;
+        ul {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            li {
+                margin: 0 auto;
+                width: 25%;
+                a {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .caret {
+        display: none;
+    }
+    footer {
+        text-align: center;
+    }
+    .footer-info {
+        text-align: center;
+    }
+    .footer-menu {
+        width: 100%;
+        ul {
+            margin: 0;
+            li {
+                width: 24%;
+            }
+        }
+    }
+}
